@@ -169,8 +169,8 @@ questions:
                     - "normalize/ixVolume"
                   show_if: [["hostPathEnabled", "=", false]]
                   default: "ix-plex_data"
-                  editable: false
-                  hidden: true
+                  editable: true
+                  hidden: false
               - variable: mountPath
                 label: "Plex Data Mount Path"
                 description: "Path where the volume will be mounted inside the pod"
